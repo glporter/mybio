@@ -1,0 +1,129 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+
+/** #bioheader {
+   background: #efeee7; -->
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+}  
+**/
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+myName {
+    padding: 20px;
+    margin-top: 0;
+    border-top-width: 0;
+    margin-left: 60px;
+    width: 200px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    background-color: #B2E0AA;
+    text-align: left;
+    float: left;
+}
+
+#contact {
+    float: right;
+    padding: 20px;
+    margin: 0;
+    text-align: top;
+    border-top-width: 0;
+    background-color: white;
+}
+
+#portfolio {
+    float: right;
+    padding: 20px;
+    margin: 0;
+    background-color: white;
+}
+
+#about {
+    float: right;
+    padding: 20px;
+    margin: 0;
+    background-color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: white;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0;
+    width: 200px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    background-color: #B2E0AA;
+    text-align: left;
+}
+
+h2 {
+    clear: both;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #B2E0AA
+}
+
+a {
+    color: black;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    clear: both;
+    width: 70%;
+    margin-left: 50px;
+}
+
+#connect {
+    clear: both;
+    float: right;
+    margin: 0;
+    width: 300px;
+    position: absolute;
+    left: 1200px;
+    top: 165px;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
